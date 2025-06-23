@@ -196,32 +196,6 @@ input {
     margin-top: 4px;
     margin-bottom: 10px;
 }
-.google-sign-in-button {
-    margin-top: 20px;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 12px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 500;
-    transition: transform 0.2s ease, background-color 0.2s ease;
-}
-
-.google-sign-in-button:hover {
-    transform: scale(1.03);
-    background-color: #f0f0f0;
-}
-
-.google-icon {
-    width: 20px;
-    height: 20px;
-}
 @media screen and (max-width: 768px) {
   .registration-container {
     flex-direction: column;
@@ -266,8 +240,7 @@ input {
   }
 
   .signup-btn,
-  .cancel-btn,
-  .google-sign-in-button {
+  .cancel-btn {
     width: 100%;
   }
 }

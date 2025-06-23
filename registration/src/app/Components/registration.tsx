@@ -19,11 +19,6 @@ const Registration: React.FC = () => {
     console.log('Form submitted!');
   };
 
-  const handleGoogleSignIn = () => {
-    console.log('Google Sign-In clicked!');
-    // Add Google auth logic here
-  };
-
   return (
     <div className="registration-container">
       <div className="left-pane">
@@ -74,20 +69,6 @@ const Registration: React.FC = () => {
               </button>
             </div>
           </form>
-
-          {/* ✅ Google Sign-In Button Here */}
-          <button
-            type="button"
-            className="google-sign-in-button"
-            onClick={handleGoogleSignIn}
-          >
-            <img
-              src="https://developers.google.com/identity/images/g-logo.png"
-              alt="Google logo"
-              className="google-icon"
-            />
-            Sign up with Google
-          </button>
 
           <p className="terms">
             <a href="#">Terms & Conditions</a>
